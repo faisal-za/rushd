@@ -236,7 +236,7 @@ export function ContactForm() {
               <Button
                 type="submit"
                 size="lg"
-                className="w-full text-base font-semibold h-14 bg-[#9c5748] hover:bg-[#9c5748]/90 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 group"
+                className="w-full text-base font-semibold h-14 bg-[#9c5748] hover:bg-[#9c5748]/90 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 group text-white"
                 disabled={isSubmitting}
               >
                 {isSubmitting ? (

@@ -89,10 +89,10 @@ export function Hero() {
           <div className="mt-6">
             <Button
               size="lg"
-              className="text-lg px-8 py-6 rounded-full bg-gradient-to-r from-[#9c5748] to-[#9c5748]/90 hover:from-[#9c5748]/90 hover:to-[#9c5748] shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 group"
+              className="text-lg px-8 py-6 rounded-full bg-gradient-to-r from-[#9c5748] to-[#9c5748]/90 hover:from-[#9c5748]/90 hover:to-[#9c5748] shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 group text-white"
               asChild
             >
-              <a href="#contact" className="flex items-center gap-2">
+              <a href="#contact" className="flex items-center gap-2 text-white">
                 <Sparkles className="w-5 h-5 transition-transform duration-300 group-hover:rotate-12" />
                 تواصل معنا
               </a>
