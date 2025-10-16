@@ -67,11 +67,11 @@ export function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
         
-            <div className="">
+            <div className="mt-6">
               <Image
                 src="/logo.svg"
                 alt="رُشد"
-                width={180}
+                width={130}
                 height={50}
                 priority
               />
